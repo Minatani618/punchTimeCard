@@ -1,0 +1,20 @@
+{
+  "name": "pptrtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg script.js --targets node16-win-x64 --output app.exe",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg": "^5.8.1",
+    "puppeteer": "^20.7.2"
+  },
+  "devDependencies": {
+    "electron": "^27.0.0"
+  }
+}
